@@ -1,5 +1,6 @@
-var showTime = document.querySelector('#showTime');
+
 var showTime = document.querySelector('#clock');
+// var button = document.querySelector('#button');
 
 
 var t = window.setInterval(function getTime() {
@@ -18,12 +19,9 @@ var t = window.setInterval(function getTime() {
     seconds = '0' + seconds;
   }
 
-
   var currentTime = '#' + hours + minutes + seconds;
   showTime.innerHTML = currentTime;
-  clock.style.backgroundColor = currentTime;
-
-
+  showTime.style.backgroundColor = currentTime;
 
   return currentTime;
 

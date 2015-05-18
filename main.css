@@ -3,18 +3,31 @@
   padding: 0;
 }
 
-
-
-#clock {
+#bigDiv {
   height: 500px;
   width: 500px;
   margin: auto;
+}
+
+
+#clock {
+  /*height: 500px;
+  width: 500px;
+  margin: auto;*/
   color: white;
   font-family: 'Lobster', sans-serif;
   text-align: center;
-  font-size: 2.4em;
+  font-size: 4.4em;
+  line-height: 450px;
+  position: relative;
 
+}
 
+#button {
+  position: absolute;
+  margin-left: 211px;
+  margin-top: -148px;
+  padding: 8px;
 }
 
 
